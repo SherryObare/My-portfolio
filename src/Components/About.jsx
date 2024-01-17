@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/cyber.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +24,18 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Cybersecurity analyst in making at Chuka University. My aim is to ensure a safe online landscape .";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Web development",
+  "Networking",
+  "Artificial Intelligence",
+  "Mobile development",
+  "UI/UX",
 ];
 
 /**
@@ -45,12 +44,12 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  " Hope is the spark that keeps us moving even though life is filled with unexpected challenges. Keep pushing forward because it is during those moments that we discover our true strengths.";
 
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
+      <img className="background" src={image} alt={imageAltText} style={{opacity: "0.8"}} />
       <div
         style={{
           backgroundColor: "white",

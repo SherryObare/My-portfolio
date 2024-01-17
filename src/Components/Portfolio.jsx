@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/cloud.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Blog website",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A web application where writers can share their content to educate others. It provides a safe space for people to express their thoughts and ideas.",
+    url: "https://proud-rock-05ce23a0f.3.azurestaticapps.net/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Task management system",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A system that hepls teams to collaborate when performing their tasks. It helps in scheduling tasks and monitoring the ongoing tasks.",
+    url: "https://yellow-dune-0686bdb0f.3.azurestaticapps.net/",
   },
   {
-    title: "My Resume Site",
+    title: "An Internship linking site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This is a web app that connects people looking for interships with different organizations. I t helps to save on time a person could have used to go door to door looking for the opportunity.",
+    url: "https://dolphin-app-pita4.ondigitalocean.app/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "The trash tracker",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This is a system that helps the urban areas managers to keep track on the trash bins that are full and alerts the aurthority.",
+    url: "https://github.com/SherryObare/Trash-Tracker",
   },
 ];
 
@@ -64,7 +64,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "100%", width: "90%", objectFit: "cover" }}
             alt={imageAltText}
           />
         </div>
